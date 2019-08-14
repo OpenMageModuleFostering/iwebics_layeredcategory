@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Iwebics_LayeredCategory</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
     <channel>community</channel>
@@ -10,9 +10,9 @@
     <description>Out Layered Category extension gives you the maximum flexibility to set category wise layered navigation. Layered Category enables you to set different layered navigation for different category.You can also set default layered navigation from configuration settings.</description>
     <notes>Out Layered Category extension gives you the maximum flexibility to set category wise layered navigation. Layered Category enables you to set different layered navigation for different category.You can also set default layered navigation from configuration settings.</notes>
     <authors><author><name>Iwebics</name><user>iwebics</user><email>iwebicssolutions@gmail.com</email></author></authors>
-    <date>2013-02-14</date>
-    <time>12:58:29</time>
+    <date>2013-02-22</date>
+    <time>05:27:46</time>
     <contents><target name="magelocal"><dir name="Iwebics"><dir name="LayeredCategory"><dir name="Block"><dir name="Catalog"><dir name="Category"><dir name="Helper"><dir name="Filterby"><file name="Available.php" hash="9b68ba33510e540d6376207bceab41db"/></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="d9c63ec94a8d85d4422aebb963b6f230"/></dir><dir name="Model"><dir name="Catalog"><dir name="Category"><dir name="Attribute"><dir name="Backend"><file name="Filterby.php" hash="8bd7d677a2b90bc919d23c6288edadef"/></dir><dir name="Source"><file name="Filterby.php" hash="eea704ae6a6cf07af8d4ca537a94f95d"/></dir></dir></dir><file name="Layer.php" hash="3ede8f429a386681e20be68abf983545"/></dir><dir name="Catalogsearch"><file name="Layer.php" hash="38b823c08f5543e3f276500204b289cb"/></dir><dir name="System"><dir name="Config"><dir name="Source"><file name="Filterby.php" hash="d5972b5e1cba23be63584e05dabacd66"/></dir></dir></dir></dir><dir name="etc"><file name="config.xml" hash="097bc4585ceedec02e44012fb69a2f2c"/><file name="system.xml" hash="474a215a816ae11f2b96f0006bdddb9c"/></dir><dir name="sql"><dir name="layeredcategory_setup"><file name="mysql4-install-0.0.1.php" hash="7a2c9dffecbd7ec315645dbd93179e77"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Iwebics_LayeredCategory.xml" hash="cef3f40f3d26cd7f867b2c15cb304cb3"/></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.5.0.0</min><max>1.7.0.2</max></package></required></dependencies>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
