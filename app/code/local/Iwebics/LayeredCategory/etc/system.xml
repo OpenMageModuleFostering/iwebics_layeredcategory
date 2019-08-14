@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Magento
+ *
+ * @category    Iwebics
+ * @package     Iwebics_LayeredCategory
+*/
+-->
+<config>
+    <sections>
+        <catalog>
+            <groups>
+                <layered_navigation>
+                    <fields>
+                        <default_layered_attribute translate="label comment">
+                            <label>Default Layered Attributes</label>
+                            <frontend_type>multiselect</frontend_type>
+                            <sort_order>25</sort_order>
+                            <source_model>layeredcategory/system_config_source_filterby</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <can_be_empty>0</can_be_empty>
+                        </default_layered_attribute>
+                    </fields>
+                </layered_navigation>
+            </groups>
+        </catalog>
+    </sections>
+</config>

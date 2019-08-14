@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Magento
+ *
+ * @category    Iwebics
+ * @package     Iwebics_LayeredCategory
+*/
+-->
+<config>
+    <modules>
+        <Iwebics_LayeredCategory>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Catalog />
+            </depends>
+        </Iwebics_LayeredCategory>
+    </modules>
+</config>

@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Iwebics_LayeredCategory",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Out Layered Category extension gives you the maximum flexibility to set category wise layered navigation. Layered Category enables you to set different layered navigation for different category.You can also set default layered navigation from configuration settings.",
+    "authors": [
+    {
+        "name": "Iwebics",
+        "email": "iwebicssolutions@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
