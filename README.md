@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Out Layered Category extension gives you the maximum flexibility to set category wise layered navigation. Layered Category enables you to set different layered navigation for different category.You can also set default layered navigation from configuration settings.
